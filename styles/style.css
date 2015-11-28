@@ -15,8 +15,21 @@ html,body{
 
 .navbar{
 	width: 100%;
-	background:#EC1BCC;
+	background:#2F4EED;
 }
+.menu_margin{
+	margin-left: 200px;
+}
+#menu.default {
+    width:100%;
+}
+
+#menu.fixed {
+    position:fixed;
+    top:0; left:0;
+    width:100%;
+}
+
 .logo{
 	width: 64px;
 	height: 64px;
@@ -33,10 +46,17 @@ p{
 	padding: 20px;
 	text-align: left;
 }
+/*
+.container{
+	border-radius:0px;
+	-moz-border-radius:0;
+	-webkit-border-radius:0;
+	-o-border-radius:0;
+}
+*/
 #content{
 	width: 100%;
-	background: #4C2A4A;
-	min-height:70%
+	min-height:70%;
 }
 #footer{
 	width: 100%;
@@ -52,7 +72,7 @@ p{
 
 
 
-
+/*Адаптивный заголовок + завтра адаптировать лого*/
 @media screen and (min-width: 75.000em) {
 			p{
 				font-size:3em;
@@ -63,13 +83,11 @@ p{
 				font-size:2em;
 			}
 }
-
-@media screen and (min-width: 48.000em)48.000em and (max-width: 61.938em) {
+@media screen and (min-width: 48.000em) and (max-width: 61.938em) {
 			p{
 				font-size:1.5em;
 			}
 }
-
 @media screen and (max-width: 47.938em) {
 			p{
 				font-size:1em;
