@@ -6,57 +6,92 @@ html,body{
 	height:100%;
 	font-size:100%;
 }
+/*Верх*/
 #header{
 	width: 100%;
-	height: 140px;
-	background: #040404;
-	min-height:20%
-}
+	height: 150px;
+	background: #ffffff;
+	min-height:20%;
+	color: #040404;
 
+}
+/*Меню*/
 .navbar{
 	width: 100%;
-	background:#2F4EED;
+	background:#040404;	
 }
-.menu_margin{
-	margin-left: 200px;
-}
+/*Фиксация меню*/
 #menu.default {
     width:100%;
 }
-
 #menu.fixed {
     position:fixed;
-    top:0; left:0;
+    top:0;
+    left:0;
     width:100%;
 }
-
-.logo{
-	width: 64px;
-	height: 64px;
-	margin-top: 20px;	
-	margin-left: 40px;
-	margin-right: 20px;
-	background: url(../images/logo_min.png) no-repeat left top;
-	-moz-background-size: url(../images/logo_min.png) no-repeat left top;
-	-webkit-background-size:url(../images/logo_min.png) no-repeat left top;
-	-o-background-size: url(../images/logo_min.png) no-repeat left top;
+/*Логотип min*/
+#log{
+	width: 50px;
+	height: 50px;
+	margin-left: 30px;
+	background: #040404 url(../images/log5.png) no-repeat left top;
+	-moz-background-size:#040404 url(../images/log5.png) no-repeat left top;
+	-webkit-background-size:#040404 url(../images/log5.png) no-repeat left top;
+	-o-background-size:#040404 url(../images/log5.png) no-repeat left top;
+	visibility: hidden;
 }
+/*Логотип max*/
+#logo{
+	width: 100px;
+	height: 100px;
+	margin-top: 10px;	
+	margin-left: 20px;
+	margin-right: 20px;
+	background: #ffffff url(../images/log2.png) no-repeat left top;
+	-moz-background-size:#ffffff url(../images/log2.png) no-repeat left top;
+	-webkit-background-size:#ffffff url(../images/log2.png) no-repeat left top;
+	-o-background-size:#ffffff url(../images/log2.png) no-repeat left top;
+}
+
+/*Заголовок*/
 p{
 	font-size:2.5em;
-	padding: 20px;
+	padding-top: 30px;
+	padding-left: 10px;
 	text-align: left;
+	height: 100px;
+	color:#040404;
+
 }
-/*
-.container{
+/*Группа Язык_Вход*/
+.btn-group{
+	float: right;
+	margin-right: 20px;
+}
+.dropdown-menu{
+	background-color: #BBB9B9;
+	border-radius: 0px;
+}
+
+/*Язык_Вход*/
+.language, .exit{
+	margin-top: 10px;
+	padding-right: 20px;
+	float: right;
 	border-radius:0px;
-	-moz-border-radius:0;
-	-webkit-border-radius:0;
-	-o-border-radius:0;
+	background-color: #BBB9B9;
 }
-*/
+.container pre{
+	background: #ffffff;
+	border-radius:0px;
+	border-style: none;
+}
+
 #content{
 	width: 100%;
 	min-height:70%;
+	background: #ffffff;
 }
 #footer{
 	width: 100%;
