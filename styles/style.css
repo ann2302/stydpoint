@@ -69,6 +69,8 @@ html,body{
 	-moz-background-size:#ffffff url(../images/tecstyra1.jpg) no-repeat;
 	-webkit-background-size:#ffffff url(../images/tecstyra1.jpg) no-repeat;
 	-o-background-size:#ffffff url(../images/tecstyra1.jpg) no-repeat;
+	position: relative;
+
 }
 .imag_search{
 	position: relative;
@@ -78,6 +80,7 @@ html,body{
 	width: 100%;
 	bottom: 150px;
 }
+
 .input-group{
 	width: 900px;
 	right: 150px;
