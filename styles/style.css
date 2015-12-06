@@ -61,10 +61,14 @@ html,body{
 	-o-background-size:#ffffff url(../images/log2.png) no-repeat left top;
 	position: absolute;
 }
-#imag_one{
+.imag_fon{
 	width: 100%;
 	height: 500px;
-	background: #aaaa22;
+	background: #ffffff;
+	background: #ffffff url(../images/tecstyra1.jpg) no-repeat ;
+	-moz-background-size:#ffffff url(../images/tecstyra1.jpg) no-repeat;
+	-webkit-background-size:#ffffff url(../images/tecstyra1.jpg) no-repeat;
+	-o-background-size:#ffffff url(../images/tecstyra1.jpg) no-repeat;
 }
 .imag_search{
 	position: relative;
@@ -73,24 +77,23 @@ html,body{
 	position: absolute;
 	width: 100%;
 	bottom: 150px;
-
 }
 .input-group{
 	width: 900px;
 	right: 150px;
 }
 .regustr{
-	height: 300px;
-
-	position: relative;	
+	height: 200px;
+	position: relative;
+	background: #656464;
 }
 .botton_regustr1{
-	top: 200px;
+	top: 100px;
 	position: absolute;
 	left: 20%;
 }
 .botton_regustr2{
-	top: 200px;
+	top: 100px;
 	position: absolute;
 	right: 20%;	
 }
@@ -98,7 +101,83 @@ html,body{
 	width: 180px;
 	height: 30px;
 }
+.new_vakancia{
+	height: 400px;
+	position: relative;
+}
+.vakancia-list{
+	background: #001010;
+	height: 400px;
+	position: absolute;
+	left: 0;	
+}
+.vakancia-list ul{
+	margin: 20px 10px 30px 30px;
+}
+.vakancia-list ul li{
+	margin-top: 10px;
+	color: #ffffff;
+}
+.vakancia-list ul li a{
+	color: #ffffff;
 
+}
+.vakancia-list ul li a:hover{
+	color: #000000;
+	background-color: #fff;
+}
+.vakancia{
+	background: #615959;
+	height: 500px;
+	position: relative;	
+}
+.name_vakancia{
+	text-align: center;
+	margin: 40px;
+}
+.one_list{
+	position: absolute;
+	left: 50px;
+}
+.two_list{
+	position: absolute;
+    right: 50px;
+}
+.one_list ul li, .two_list ul li{
+	margin: 0px 30px 20px 30px;
+}	
+.vakancia-carousel{
+	background: #ffffff url(../images/tecstyra1.jpg) no-repeat ;
+	-moz-background-size:#ffffff url(../images/tecstyra1.jpg) no-repeat;
+	-webkit-background-size:#ffffff url(../images/tecstyra1.jpg) no-repeat;
+	-o-background-size:#ffffff url(../images/tecstyra1.jpg) no-repeat;
+	background: #9C9A9A;
+	height: 400px;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.lenta_news{
+	position: relative;	
+}
+.news_carousel{
+	height: 400px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	background: #9C9A9A;
+}
+.articles{
+	height: 400px;
+	position: relative;
+	background: #656464;
+}
+#carousel{
+position: static;
+}
+#carousel1{
+position: static;
+}
 
 /*Заголовок*/
 p{
@@ -117,12 +196,10 @@ p{
 	position: absolute;
 
 }
-
 .btn{
 	border-radius:0px;
 	background-color: #BBB9B9;
 }
-
 /*Язык_Вход*/
 .language, .exit{
 	margin-top: 10px;
@@ -136,7 +213,6 @@ p{
 	border-radius:0px;
 	border-style: none;
 }
-
 #content{
 	width: 100%;
 	min-height:70%;
@@ -166,11 +242,11 @@ p{
 	.input-group{
 		width: 700px;
 		right: 80px;
-    }
-    .btn-regust{
-	    width: 160px;
-	    height: 30px;
-    }
+	}
+	.btn-regust{
+		width: 160px;
+		height: 30px;
+	}
 
 }
 @media screen and (min-width: 48.000em) and (max-width: 61.938em) {
@@ -180,11 +256,11 @@ p{
 	.input-group{
 		width: 600px;
 		right: 60px;
-    }
-    .btn-regust{
-	    width: 140px;
-	    height: 30px;
-    }
+	}
+	.btn-regust{
+		width: 120px;
+		height: 30px;
+	}
 
 }
 @media screen and (max-width: 47.938em) {
@@ -195,17 +271,14 @@ p{
 		right: 80px;
 		bottom: 5px;
 	}
-	#imag_one{
-		
-	}
 	.input-group{
 		width: 350px;
 		right: 30px;
-    }
-    .btn-regust{
-	    width: 120px;
-	    height: 30px;
-    }
+	}
+	.btn-regust{
+		width: 100px;
+		height: 30px;
+	}
 }
 /*Сетка Bootstrap*/
 @media screen and (max-width: 767px){
