@@ -127,26 +127,6 @@ html,body{
 	color: #000000;
 	background-color: #fff;
 }
-.vakancia{
-	background: #615959;
-	height: 500px;
-	position: relative;	
-}
-.name_vakancia{
-	text-align: center;
-	margin: 40px;
-}
-.one_list{
-	position: absolute;
-	left: 50px;
-}
-.two_list{
-	position: absolute;
-    right: 50px;
-}
-.one_list ul li, .two_list ul li{
-	margin: 0px 30px 20px 30px;
-}	
 .vakancia-carousel{
 	background: #ffffff url(../images/tecstyra1.jpg) no-repeat ;
 	-moz-background-size:#ffffff url(../images/tecstyra1.jpg) no-repeat;
@@ -160,24 +140,71 @@ html,body{
 }
 .lenta_news{
 	position: relative;	
+	height: 500px;
 }
 .news_carousel{
-	height: 400px;
 	position: absolute;
+	height: 500px;
 	right: 0;
+	left: 0;
 	top: 0;
+	bottom: 0;
 	background: #9C9A9A;
+}
+.carousel-indicators1{
+	top: 450px;
 }
 .articles{
 	height: 400px;
 	position: relative;
 	background: #656464;
 }
-#carousel{
-position: static;
+.one_articles{
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	background: #7E7777;
 }
-
-
+.two_articles{
+	position: absolute;
+	left: 33.4%;
+	right: 33.4%;
+	top: 0;
+	bottom: 0;
+	background: #807979;
+}
+.three_articles{
+	position: absolute;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background: #7A7777;
+}
+.lenta_brend{
+	position: relative;
+	height: 200px;
+	background: #565353;
+}
+#carousel_brend{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+.group_brend{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.brend{
+	border:1px solid black;
+	background: #B0A6A6;
+	height: 100px;
+}
+.carousel-indicators2{
+	top: 170px;
+}
 /*Заголовок*/
 p{
 	font-size:2.5em;
@@ -219,7 +246,7 @@ p{
 }
 #footer{
 	width: 100%;
-	height: 100px;
+	height: 200px;
 	min-height:10%;
 	background: #040404;
 }
