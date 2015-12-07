@@ -70,7 +70,6 @@ html,body{
 	-webkit-background-size:#ffffff url(../images/tecstyra1.jpg) no-repeat;
 	-o-background-size:#ffffff url(../images/tecstyra1.jpg) no-repeat;
 	position: relative;
-
 }
 .imag_search{
 	position: relative;
@@ -80,23 +79,22 @@ html,body{
 	width: 100%;
 	bottom: 150px;
 }
-
 .input-group{
 	width: 900px;
 	right: 150px;
 }
 .regustr{
-	height: 200px;
+	height: 300px;
 	position: relative;
 	background: #656464;
 }
 .botton_regustr1{
-	top: 100px;
+	top: 200px;
 	position: absolute;
 	left: 20%;
 }
 .botton_regustr2{
-	top: 100px;
+	top: 200px;
 	position: absolute;
 	right: 20%;	
 }
@@ -109,7 +107,7 @@ html,body{
 	position: relative;
 }
 .vakancia-list{
-	background: #001010;
+	background: #797878;
 	height: 400px;
 	position: absolute;
 	left: 0;	
@@ -178,9 +176,7 @@ html,body{
 #carousel{
 position: static;
 }
-#carousel1{
-position: static;
-}
+
 
 /*Заголовок*/
 p{
