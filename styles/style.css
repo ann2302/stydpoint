@@ -83,49 +83,64 @@ html,body{
 	width: 900px;
 	right: 150px;
 }
+/* Регестрация */
 .regustr{
-	height: 300px;
+	height: 200px;
 	position: relative;
 	background: #656464;
 }
 .botton_regustr1{
-	top: 200px;
+	top: 120px;
 	position: absolute;
-	left: 20%;
+	left: 20%;	
 }
 .botton_regustr2{
-	top: 200px;
+	top: 120px;
 	position: absolute;
 	right: 20%;	
 }
 .btn-regust{
-	width: 180px;
+	width: 200px;
 	height: 30px;
 }
+.name_regust{
+	color: #000;
+	padding-top: 20px;
+	text-align: center;
+}
+/* Вакансии */
 .new_vakancia{
 	height: 400px;
 	position: relative;
-}
-.vakancia-list{
+	left: 0;
 	background: #797878;
-	height: 400px;
-	position: absolute;
-	left: 0;	
+}
+.name_vakancia{
+	text-align: center;
+	color: #000000;
 }
 .vakancia-list ul{
 	margin: 20px 10px 30px 30px;
 }
 .vakancia-list ul li{
-	margin-top: 10px;
+	margin-top: 20px;
 	color: #ffffff;
 }
 .vakancia-list ul li a{
 	color: #ffffff;
-
 }
 .vakancia-list ul li a:hover{
 	color: #000000;
 	background-color: #fff;
+}
+.oll_vakancia a{
+	color: #000000;
+}
+.img_vakancia{
+	float: left;
+	margin: 20px;
+	width: 200;
+	height: 150px;
 }
 .vakancia-carousel{
 	background: #ffffff url(../images/tecstyra1.jpg) no-repeat ;
@@ -141,6 +156,7 @@ html,body{
 .lenta_news{
 	position: relative;	
 	height: 500px;
+	background: #9C9A9A;
 }
 .news_carousel{
 	position: absolute;
@@ -149,7 +165,7 @@ html,body{
 	left: 0;
 	top: 0;
 	bottom: 0;
-	background: #9C9A9A;
+	
 }
 .carousel-indicators1{
 	top: 450px;
@@ -181,29 +197,29 @@ html,body{
 	bottom: 0;
 	background: #7A7777;
 }
+/* Партнёры */
 .lenta_brend{
 	position: relative;
 	height: 200px;
 	background: #565353;
 }
-#carousel_brend{
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-}
-.group_brend{
-	margin-top: 50px;
-	margin-bottom: 50px;
-}
 .brend{
 	border:1px solid black;
 	background: #B0A6A6;
 	height: 100px;
+	padding-right: 0px;
+    padding-left: 0px;
+}
+.name_brend{
+	text-align: center;
+	color: #000000;
+}
+.img_brend{
+	width: 200px;
+	height: 100px;
 }
 .carousel-indicators2{
-	top: 170px;
+	top: 110px;
 }
 /*Заголовок*/
 p{
