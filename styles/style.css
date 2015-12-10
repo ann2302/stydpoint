@@ -10,22 +10,75 @@ html,body{
 #header{
 	width: 100%;
 	height: 150px;
-	background: #ffffff;
 	min-height:20%;
-	color: #040404;
 	position: relative;
+	background:#fff;
 }
 /*Меню*/
 .navbar{
-	width: 100%;
-	background:#040404;	
+	width: 100%;	
 	height: 50px;
 	position: absolute;
 	top: 100px;
 }
+/*Заголовок*/
+h1{
+	top:10px;
+	font-size:3.0em;
+	left: 150px;
+	text-align: left;
+	height: 100px;
+	color:#f00;
+	position: absolute;
+}
+p{
+	color:#ccc;
+}
+h3{
+	color:#E85022;
+}
+#menu{
+	background-color: #000;
+}
 #respons-menu{
-	background:#040404;
+	background-color: #000;
 	width: 100%;
+}
+.navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover{
+	    color: #fff;
+        background-color: #f00;
+}
+.navbar-toggle, .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+    background-color: #f00;
+}
+.collapse{
+	border:0px;
+}
+a{
+	color:#;
+}
+a:hover{
+	color:#fff;
+}
+a:focus{
+	color:#999;
+}
+/*Группа Язык_Вход*/
+.btn-group{
+	right: 30px;
+	position: absolute;
+}
+.btn-link {
+    font-weight: normal;
+    color: #000;
+    border-radius: 0;
+}
+/*Язык_Вход*/
+.language, .exit{
+	margin-top: 10px;
+	padding-right: 20px;
+	float: right;
+	border-radius:0;
 }
 /*Фиксация меню*/
 #menu.default {
@@ -41,35 +94,40 @@ html,body{
 #log{
 	width: 50px;
 	height: 50px;
-	margin-left: 30px;
-	background: #040404 url(../images/log5.png) no-repeat left top;
-	-moz-background-size:#040404 url(../images/log5.png) no-repeat left top;
-	-webkit-background-size:#040404 url(../images/log5.png) no-repeat left top;
-	-o-background-size:#040404 url(../images/log5.png) no-repeat left top;
+	margin-left: 20px;
+	margin-right: 20px;
+	background: #000 url(../images/Logo_StaffBank_prozrachny_min.png) no-repeat left top;
+	-moz-background-size:#000 url(../images/Logo_StaffBank_prozrachny_min.png) no-repeat left top;
+	-webkit-background-size:#000 url(../images/Logo_StaffBank_prozrachny_min.png) no-repeat left top;
+	-o-background-size:#000 url(../images/Logo_StaffBank_prozrachny_min.png) no-repeat left top;
 	visibility: hidden;
 }
 /*Логотип max*/
 #logo{
 	width: 100px;
 	height: 100px;
-	top: 0px;	
+	top: 5px;	
 	left: 20px;
 	right: 20px;
-	background: #ffffff url(../images/log2.png) no-repeat left top;
-	-moz-background-size:#ffffff url(../images/log2.png) no-repeat left top;
-	-webkit-background-size:#ffffff url(../images/log2.png) no-repeat left top;
-	-o-background-size:#ffffff url(../images/log2.png) no-repeat left top;
+	background: #fff url(../images/Logo_StaffBank_prozrachny.png) no-repeat left top;
+	-moz-background-size:#fff url(../images/Logo_StaffBank_prozrachny.png) no-repeat left top;
+	-webkit-background-size:#fff url(../images/Logo_StaffBank_prozrachny.png) no-repeat left top;
+	-o-background-size:#fff url(../images/Logo_StaffBank_prozrachny.png) no-repeat left top;
 	position: absolute;
 }
 .imag_fon{
-	width: 100%;
-	height: 500px;
-	background: #ffffff;
-	background: #ffffff url(../images/tecstyra1.jpg) no-repeat ;
-	-moz-background-size:#ffffff url(../images/tecstyra1.jpg) no-repeat;
-	-webkit-background-size:#ffffff url(../images/tecstyra1.jpg) no-repeat;
-	-o-background-size:#ffffff url(../images/tecstyra1.jpg) no-repeat;
 	position: relative;
+	width: 100%;
+	height: 400px;
+	background: #ffffff;
+	background: #ffffff url(../images/gj6-509x220.jpg) no-repeat ;
+	-moz-background:#ffffff url(../images/gj6-509x220.jpg) no-repeat;
+	-webkit-background:#ffffff url(../images/gj6-509x220.jpg) no-repeat;
+	-o-background:#ffffff url(../images/gj6-509x220.jpg) no-repeat;
+	background-size: 100%;
+	-moz-background-size:100%;
+	-webkit-background:100%;
+	-o-background:100%;
 }
 .imag_search{
 	position: relative;
@@ -87,54 +145,83 @@ html,body{
 .regustr{
 	height: 200px;
 	position: relative;
-	background: #656464;
+	background: #ff3000;
 }
+
 .botton_regustr1{
 	top: 120px;
 	position: absolute;
-	left: 20%;	
+	left: 20%;
+	border-radius:0;
+	background-color: #000;
 }
 .botton_regustr2{
 	top: 120px;
 	position: absolute;
 	right: 20%;	
+	border-radius:0;
+	background-color: #000;
 }
 .btn-regust{
 	width: 200px;
 	height: 30px;
+	background-color: #000;
+	border:1px solid #f00;
+	color:#999;
+}
+.btn:hover, .btn:focus, .btn.focus {
+    color: #fff;
+    background-color: #f00;
+	border:1px solid #000;
 }
 .name_regust{
-	color: #000;
+	color: #fff;
 	padding-top: 20px;
 	text-align: center;
 }
 /* Вакансии */
 .new_vakancia{
+	width: 100%;
 	height: 400px;
 	position: relative;
 	left: 0;
-	background: #797878;
+	right: 0;
+	background: #fff;
+}
+.vakancia-carousel{
+	position: absolute;
+	height: 300px;
+	left: 38%;
+	top: 50px;
+	bottom:50px;
+	background: #E85022;
+}
+.vakancia-list{
+	position: absolute;
+	left: 20px;
+
 }
 .name_vakancia{
-	text-align: center;
-	color: #000000;
+	text-align: left;
+	color: #ccc;
 }
 .vakancia-list ul{
-	margin: 20px 10px 10px 30px;
+	margin: 20px 40px 10px 30px;
 }
 .vakancia-list ul li{
 	margin-top: 20px;
-	color: #ffffff;
+	color: #000;
 }
 .vakancia-list ul li a{
-	color: #ffffff;
+	color: #000;
 }
 .vakancia-list ul li a:hover{
-	color: #000000;
-	background-color: #fff;
+	color: #f00;
+	background-color: #999;
 }
 .oll_vakancia a{
-	color: #000000;
+	color: #f00;
+
 }
 .img_vakancia{
 	float: left;
@@ -142,21 +229,11 @@ html,body{
 	width: 200;
 	height: 150px;
 }
-.vakancia-list{
-	position: absolute;
-}
-.vakancia-carousel{
-	position: absolute;
-	background: #9C9A9A;
-	height: 400px;
-	right: 0;
-	top: 0;
-}
 /*Новости*/
 .lenta_news{
 	position: relative;	
-	height: 400px;
-	background: #9C9A9A;
+	height: 350px;
+	background: #fff;
 }
 .lenta{
 	background: #B0A6A6;
@@ -221,35 +298,8 @@ html,body{
 .carousel-indicators2{
 	top: 110px;
 }
-/*Заголовок*/
-h1{
-	font-size:3.0em;
-	top: 20px;
-	left: 130px;
-	text-align: left;
-	height: 100px;
-	color:#040404;
-	position: absolute;
 
-}
-/*Группа Язык_Вход*/
-.btn-group{
-	right: 30px;
-	position: absolute;
 
-}
-.btn{
-	border-radius:0px;
-	background-color: #BBB9B9;
-}
-/*Язык_Вход*/
-.language, .exit{
-	margin-top: 10px;
-	padding-right: 20px;
-	float: right;
-	border-radius:0px;
-	background-color: #BBB9B9;
-}
 .container pre{
 	background: #ffffff;
 	border-radius:0px;
@@ -306,7 +356,6 @@ h1{
 		width: 160px;
 		height: 30px;
 	}
-
 }
 @media screen and (min-width: 48.000em) and (max-width: 61.938em) {
 	h1{
@@ -329,11 +378,10 @@ h1{
 		width: 120px;
 		height: 30px;
 	}
-
 }
 @media screen and (max-width: 47.938em) {
 	h1{
-		font-size:1.5em;
+		font-size:1.3em;
 	}
 		h2{
 		font-size:1.2em;
